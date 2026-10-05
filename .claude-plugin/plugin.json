@@ -1,0 +1,7 @@
+{
+  "name": "ajyal-exams",
+  "version": "1.0.0",
+  "description": "توليد أوراق الاختبارات المدرسية لمدارس أجيال المواهب بصيغة PDF جاهزة للطباعة، بتخطيط متوازن أفقياً، ودون تقسيم السؤال الواحد بين صفحتين، وبحد أقصى أربع صفحات.",
+  "author": { "name": "Academic Supervision - Ajyal Al-Mawahib Schools" },
+  "keywords": ["exam", "arabic", "rtl", "pdf", "school", "assessment"]
+}

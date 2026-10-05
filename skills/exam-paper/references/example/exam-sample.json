@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "school": "مدارس أجيال المواهب",
+    "department": "القسم الابتدائي — بنين",
+    "title": "اختبار الفترة الأولى — English",
+    "subject": "English",
+    "grade": "الصف الثالث الابتدائي",
+    "term": "الفصل الدراسي الأول",
+    "year": "1447هـ",
+    "duration": "45 دقيقة",
+    "student_fields": ["اسم الطالب", "الفصل", "رقم الجلوس"],
+    "instructions": [
+      "اقرأ كل سؤال بتأنٍّ قبل الإجابة.",
+      "اكتب بخط واضح، ولا تترك سؤالاً دون إجابة.",
+      "عدد الأسئلة خمسة، والدرجة الكلية عشرون."
+    ]
+  },
+  "questions": [
+    {
+      "type": "matching",
+      "marks": 3,
+      "dir": "ltr",
+      "prompt": "Match each sentence with the correct picture.",
+      "sub": "صِل كل جملة بالصورة المناسبة لها.",
+      "option_marker": "latin",
+      "side_labels": ["Pictures", "Sentences"],
+      "answer_label": "Answers",
+      "options": [
+        { "image": "img/rain.svg" },
+        { "image": "img/room.svg" },
+        { "image": "img/umbrellas.svg" }
+      ],
+      "stems": [
+        { "text": "They are umbrellas." },
+        { "text": "Dad is in the living room." },
+        { "text": "It is raining." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "marks": 4,
+      "dir": "ltr",
+      "marker": "latin",
+      "prompt": "Choose the correct answer.",
+      "sub": "اختر الإجابة الصحيحة.",
+      "items": [
+        { "text": "The sun ______ in the east.", "choices": ["rise", "rises", "rose", "risen"] },
+        { "text": "We go to school ______ Sunday.", "choices": ["in", "on", "at", "of"] },
+        { "text": "She has two ______.", "choices": ["box", "boxs", "boxes", "boxies"] },
+        { "text": "Where do you keep your books?", "choices": ["In my bag", "On the roof", "Under the rain", "Behind the clouds"] }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "marks": 3,
+      "prompt": "ضع علامة (√) أمام العبارة الصحيحة وعلامة (×) أمام العبارة الخاطئة.",
+      "labels": ["√", "×"],
+      "items": [
+        { "text": "الفاعل مرفوع دائماً." },
+        { "text": "المفعول به مجرور." },
+        { "text": "الجملة الاسمية تبدأ باسم." }
+      ]
+    },
+    {
+      "type": "passage",
+      "marks": 5,
+      "prompt": "اقرأ القطعة التالية ثم أجب عن الأسئلة.",
+      "passage": {
+        "title": "الماء سر الحياة",
+        "paragraphs": [
+          "الماء أصل الحياة على الأرض، وبه تنمو النباتات وتعيش الحيوانات ويشرب الناس. ومن غير الماء تجف الأرض وتموت الكائنات، لذلك جعل الله الماء نعمة عظيمة تستحق الشكر والمحافظة عليها في كل وقت.",
+          "ويحافظ الطالب على الماء حين يغلق الصنبور بعد الوضوء، وحين ينبّه غيره إلى إغلاقه، وحين يستعمل من الماء قدر حاجته لا أكثر. وهذه عادات صغيرة، لكنها إذا اجتمعت وفّرت كميات كبيرة في كل بيت ومدرسة."
+        ]
+      },
+      "items": [
+        { "text": "ما العنوان المناسب الآخر للقطعة؟", "lines": 1 },
+        { "text": "اذكر سلوكين يحافظ بهما الطالب على الماء.", "lines": 2 },
+        { "text": "ما ضد كلمة (تجف)؟", "choices": ["تيبس", "ترتوي", "تقحل", "تذبل"] }
+      ]
+    },
+    {
+      "type": "fill",
+      "marks": 5,
+      "prompt": "أكمل الفراغ بالكلمة المناسبة من بنك الكلمات.",
+      "bank_label": "بنك الكلمات",
+      "bank": ["المطر", "الحديقة", "الكتاب", "الصباح", "المدرسة"],
+      "items": [
+        { "text": "أقرأ ______ كل مساء." },
+        { "text": "نذهب إلى ______ في السابعة." },
+        { "text": "ينزل ______ في فصل الشتاء." },
+        { "text": "نلعب في ______ بعد الدرس." },
+        { "text": "أستيقظ مبكراً في ______." }
+      ]
+    }
+  ]
+}

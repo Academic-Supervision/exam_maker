@@ -1,0 +1,10 @@
+Tajawal (Light, Regular, Bold, ExtraBold) - version 1.700
+Copyright (c) 2017 by Boutros International. All rights reserved.
+
+The font files in this folder are bundled UNMODIFIED (only the file names were shortened).
+According to the font metadata, Tajawal is licensed under the SIL Open Font License (OFL):
+    http://scripts.sil.org/OFL
+
+The full text of the license was not included in the files supplied to this skill.
+Before sharing this skill outside the school, add the official OFL.txt that ships with the
+font download, and keep this notice with the fonts.
